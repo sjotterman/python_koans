@@ -14,13 +14,13 @@ class AboutAsserts(Koan):
         #
         #   http://bit.ly/about_asserts
 
-        self.assertTrue(False) # This should be true
+        self.assertTrue(True) # This should be true
 
     def test_assert_with_message(self):
         """
         Enlightenment may be more easily achieved with appropriate messages.
         """
-        self.assertTrue(False, "This should be true -- Please fix this")
+        self.assertTrue(True, "This should be true -- Please fix this")
 
     def test_fill_in_values(self):
         """
@@ -32,7 +32,7 @@ class AboutAsserts(Koan):
         """
         To understand reality, we must compare our expectations against reality.
         """
-        expected_value = __
+        expected_value = 2
         actual_value = 1 + 1
         self.assertTrue(expected_value == actual_value)
 
