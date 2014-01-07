@@ -30,7 +30,7 @@ class AboutLists(Koan):
         noms = ['peanut', 'butter', 'and', 'jelly']
 
         self.assertEqual('peanut', noms[0])
-        self.assertEqual(__, noms[3])
+        self.assertEqual('jelly", noms[3])
         self.assertEqual(__, noms[-1])
         self.assertEqual(__, noms[-3])
 
