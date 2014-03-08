@@ -12,7 +12,7 @@ class AboutDictionaries(Koan):
         empty_dict = dict()
         self.assertEqual(dict, type(empty_dict))
         self.assertDictEqual({}, empty_dict)
-        self.assertEqual(__, len(empty_dict))
+        self.assertEqual(0, len(empty_dict))
 
     def test_dictionary_literals(self):
         empty_dict = {}
